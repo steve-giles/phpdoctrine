@@ -1,0 +1,34 @@
+{%  extends 'base.html.twig' %}
+
+{% block title %}Financial Data{%  endblock %}
+
+{% block body %}
+    <h1>Financial Data</h1>
+    {% if orders %}
+        <table id="orders" class="table table-striped">
+            <thead>
+            <tr>
+                <th>Order Id</th>
+                <th>Total</th>
+                <th>Subtotal</th>
+                <th>Created</th>
+                <th>Details</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for order in orders %}
+                <tr>
+                    <td>{{ order.id }}</td>
+                    <td>{{ order.total }}</td>
+                    <td>{{ order.subTotal }}</td>
+                    <td>
+                        <a href="/orders/{{ order.id }}" class="btn btn-dark">Show</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No articles to display</p>
+    {% endif %}
+{% endblock %}

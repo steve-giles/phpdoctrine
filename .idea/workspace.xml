@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2cb86bd-e864-43cd-87bc-3e7eb12349ef" name="Default Changelist" comment="" />
+    <list default="true" id="d2cb86bd-e864-43cd-87bc-3e7eb12349ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/OrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ItemRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/OrderRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/items/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/orders/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testdct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testdct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/articles/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/orders/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inc/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inc/navbar.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +100,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pDd0uSgDiUSFU1PcwFr0Br5WdP" />
@@ -91,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../dev/HomeCEU/financial-migration-service" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -103,25 +129,70 @@
       <option name="presentableId" value="Default" />
       <updated>1614721374752</updated>
       <workItem from="1614721375846" duration="9261000" />
-      <workItem from="1614867314249" duration="2743000" />
+      <workItem from="1614867314249" duration="39427000" />
+      <workItem from="1615226314758" duration="15368000" />
+      <workItem from="1615394069088" duration="8000" />
+      <workItem from="1616007427287" duration="3634000" />
     </task>
+    <task id="LOCAL-00001" summary="PHP with Doctrine">
+      <created>1614870777319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614870777319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="PHP with Doctrine" />
+    <option name="LAST_COMMIT_MESSAGE" value="PHP with Doctrine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2353" y="583" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614774492590">
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
     <state x="2353" y="583" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.1560@0.0.3840.1560" timestamp="1614774492590" />
+    <state x="2114" y="669" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615307391928">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="2114" y="669" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.3840.1560@0.0.3840.1560" timestamp="1615307391928" />
+    <state x="1822" y="350" key="CommitChangelistDialog2" timestamp="1614870775498">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="1822" y="350" key="CommitChangelistDialog2/0.0.3840.1560@0.0.3840.1560" timestamp="1614870775498" />
+    <state x="1272" y="291" width="2297" height="1020" key="DiffContextDialog" timestamp="1616074170376">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="1272" y="291" width="2297" height="1020" key="DiffContextDialog/0.0.3840.1560@0.0.3840.1560" timestamp="1616074170376" />
+    <state x="1976" y="514" key="FileChooserDialogImpl" timestamp="1615214576642">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="1976" y="514" key="FileChooserDialogImpl/0.0.3840.1560@0.0.3840.1560" timestamp="1615214576642" />
     <state x="2447" y="704" key="NewPhpFileDialog" timestamp="1614721563890">
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
     <state x="2447" y="704" key="NewPhpFileDialog/0.0.3840.1560@0.0.3840.1560" timestamp="1614721563890" />
-    <state x="2319" y="514" width="587" height="534" key="find.popup" timestamp="1614775148444">
+    <state x="2268" y="714" key="VCS.ChangelistChooser" timestamp="1616074284384">
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
-    <state x="2319" y="514" width="587" height="534" key="find.popup/0.0.3840.1560@0.0.3840.1560" timestamp="1614775148444" />
+    <state x="2268" y="714" key="VCS.ChangelistChooser/0.0.3840.1560@0.0.3840.1560" timestamp="1616074284384" />
+    <state x="1788" y="506" key="Vcs.Push.Dialog.v2" timestamp="1614872020871">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="1788" y="506" key="Vcs.Push.Dialog.v2/0.0.3840.1560@0.0.3840.1560" timestamp="1614872020871" />
+    <state x="1605" y="514" width="1301" height="534" key="find.popup" timestamp="1616007618459">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="1605" y="514" width="1301" height="534" key="find.popup/0.0.3840.1560@0.0.3840.1560" timestamp="1616007618459" />
+    <state x="1771" y="381" key="run.anything.popup" timestamp="1614954212075">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="1771" y="381" key="run.anything.popup/0.0.3840.1560@0.0.3840.1560" timestamp="1614954212075" />
   </component>
 </project>
