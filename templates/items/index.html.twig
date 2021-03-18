@@ -1,0 +1,31 @@
+{%  extends 'base.html.twig' %}
+
+{% block title %}Financial Item Data{%  endblock %}
+
+{% block body %}
+    <h1>Financial Item Data</h1>
+    {% if items %}
+        <table id="items" class="table table-striped">
+            <thead>
+            <tr>
+                <th>Item Id</th>
+                <th>Name</th>
+                <th>Delivery Method</th>
+                <th>Primary Profession</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in items %}
+                <tr>
+                    <td>{{ item['itemid'] }}</td>
+                    <td>{{ item['displayname'] }}</td>
+                    <td>{{ item['DeliveryMethodName'] }}</td>
+                    <td>{{ item['PrimaryProfessionName'] }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No items to display</p>
+    {% endif %}
+{% endblock %}

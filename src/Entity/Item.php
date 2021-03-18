@@ -7,8 +7,8 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Item
  *
+ * @ORM\Entity(repositoryClass="App\Repository\ItemRepository")
  * @ORM\Table(name="item", indexes={@ORM\Index(name="instructional_level_id", columns={"instructional_level_id"}), @ORM\Index(name="company_id_2", columns={"company_id", "deleted_at"}), @ORM\Index(name="type_2", columns={"type", "deleted_at"}), @ORM\Index(name="royalty_owner_id", columns={"royalty_owner_id"}), @ORM\Index(name="type_3", columns={"type", "is_active", "deleted_at"}), @ORM\Index(name="survey_id", columns={"survey_id"}), @ORM\Index(name="deleted_at", columns={"deleted_at"}), @ORM\Index(name="boc_instructional_level_id", columns={"boc_instructional_level_id"}), @ORM\Index(name="is_active", columns={"is_active"}), @ORM\Index(name="exam_id", columns={"exam_id"}), @ORM\Index(name="item_format_id", columns={"item_format_id"}), @ORM\Index(name="updated_at", columns={"updated_at"}), @ORM\Index(name="copied_from_id", columns={"copied_from_id"}), @ORM\Index(name="IDX_1F1B251E979B1AD6", columns={"company_id"})})
- * @ORM\Entity
  */
 class Item
 {
